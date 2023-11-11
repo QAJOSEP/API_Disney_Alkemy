@@ -70,14 +70,14 @@ Requerimientos técnicos
    ● /movies?genre=idGenero
    ● /movies?order=ASC | DESC
 ### 11. Envío de emails
-    Al registrarse en el sitio, el usuario deberá recibir un email de bienvenida. Es recomendable, la
-    utilización de algún servicio de terceros como SendGrid.
-    Documentación
-    Es deseable documentar los endpoints utilizando alguna herramienta como Postman o
-    Swagger.
-    Tests
-    De forma opcional, se podrán agregar tests de los diferentes endpoints de la APP, verificando
-    posibles escenarios de error:
+  Al registrarse en el sitio, el usuario deberá recibir un email de bienvenida. Es recomendable, la
+  utilización de algún servicio de terceros como SendGrid.
+  Documentación
+  Es deseable documentar los endpoints utilizando alguna herramienta como Postman o
+  Swagger.
+  Tests
+  De forma opcional, se podrán agregar tests de los diferentes endpoints de la APP, verificando
+  posibles escenarios de error:
 - Campos faltantes o con un formato inválido en BODY de las peticiones
 - Acceso a recursos inexistentes en endpoints de detalle
   Los tests pueden realizarse utilizando JUnit y Mockito.
